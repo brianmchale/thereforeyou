@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: red;
+}
+
+.container, .branding-top, .branding-bottom {
+    padding: 20px;
+    text-align: center;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+.accordion {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    padding: 15px 30px;
+    width: 80%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    transition: opacity 0.4s ease;
+    margin-bottom: 10px; /* Space between buttons */
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+/* When hovering over the button, increase opacity */
+.accordion:hover {
+    opacity: 1;
+}
+
+/* Remove the :focus style if it's no longer needed */
+/*.accordion:focus {
+    opacity: 1;
+}*/
+
+.panel {
+    padding: 0 18px;
+    background-color: black;
+    display: none;
+    overflow: hidden;
+    color: red;
+}
